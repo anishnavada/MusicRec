@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MusicRec/static/css/main.2cce8147.chunk.css",
+    "main.js": "/MusicRec/static/js/main.31263db4.chunk.js",
+    "main.js.map": "/MusicRec/static/js/main.31263db4.chunk.js.map",
+    "runtime~main.js": "/MusicRec/static/js/runtime~main.2b7be7a0.js",
+    "runtime~main.js.map": "/MusicRec/static/js/runtime~main.2b7be7a0.js.map",
+    "static/js/2.f695c5be.chunk.js": "/MusicRec/static/js/2.f695c5be.chunk.js",
+    "static/js/2.f695c5be.chunk.js.map": "/MusicRec/static/js/2.f695c5be.chunk.js.map",
+    "index.html": "/MusicRec/index.html",
+    "precache-manifest.83ca1cba06554d62e185b484ef9f914b.js": "/MusicRec/precache-manifest.83ca1cba06554d62e185b484ef9f914b.js",
+    "service-worker.js": "/MusicRec/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/MusicRec/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/MusicRec/static/media/logo.5d5d9eef.svg"
+  }
+}
