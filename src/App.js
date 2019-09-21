@@ -1,26 +1,37 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles.css';
+import HelpModal from "./components/HelpModal"
+import { Switch, BrowserRouter as Router, Route} from "react-router-dom";
+import $ from "jquery"
+import RecommendationList from "./components/RecommendationList"
+import Home from "./components/Home"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  
+  constructor(){
+		super()
+	}
+	
+  openHelpModal(){
+  	window.$('#help-modal').modal('show');
+  }
+  
+  
+  render() { 
+	  return (
+	    <div>
+	    	<Router>
+	    	<h1 className="title">M u s i c R e c <img onClick={this.openHelpModal} className="help" src={require('./images/question.png')} /></h1>
+	    	<HelpModal /> 
+	    		<Switch> 
+	    			<Route path="/reclist/:id" component={RecommendationList} />
+	    			<Route path="/" component={Home} /> 
+	    		</Switch>
+	    	</Router>
+	    </div>
+	  )
+   }
 }
 
 export default App;

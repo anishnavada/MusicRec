@@ -1,0 +1,16 @@
+.title{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin-top:5px;
+	font-size: 75px;
+	dsiplay: inline-block;
+}
+
+.help{
+	float: right;
+	display:inline-block;
+	width: 25px;
+	height: 40px;
+	margin-top: 25px;
+	margin-right: 25px;
+}
