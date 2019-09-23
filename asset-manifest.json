@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/MusicRec/static/css/main.2cce8147.chunk.css",
-    "main.js": "/MusicRec/static/js/main.31263db4.chunk.js",
-    "main.js.map": "/MusicRec/static/js/main.31263db4.chunk.js.map",
+    "main.css": "/MusicRec/static/css/main.c9b55420.chunk.css",
+    "main.js": "/MusicRec/static/js/main.d9016572.chunk.js",
+    "main.js.map": "/MusicRec/static/js/main.d9016572.chunk.js.map",
     "runtime~main.js": "/MusicRec/static/js/runtime~main.2b7be7a0.js",
     "runtime~main.js.map": "/MusicRec/static/js/runtime~main.2b7be7a0.js.map",
-    "static/js/2.f695c5be.chunk.js": "/MusicRec/static/js/2.f695c5be.chunk.js",
-    "static/js/2.f695c5be.chunk.js.map": "/MusicRec/static/js/2.f695c5be.chunk.js.map",
+    "static/js/2.95a0f3d8.chunk.js": "/MusicRec/static/js/2.95a0f3d8.chunk.js",
+    "static/js/2.95a0f3d8.chunk.js.map": "/MusicRec/static/js/2.95a0f3d8.chunk.js.map",
     "index.html": "/MusicRec/index.html",
-    "precache-manifest.83ca1cba06554d62e185b484ef9f914b.js": "/MusicRec/precache-manifest.83ca1cba06554d62e185b484ef9f914b.js",
+    "precache-manifest.c4f19b8f02bd63a148d3f5f4eb6b8342.js": "/MusicRec/precache-manifest.c4f19b8f02bd63a148d3f5f4eb6b8342.js",
     "service-worker.js": "/MusicRec/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/MusicRec/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/MusicRec/static/media/logo.5d5d9eef.svg"
+    "static/css/main.c9b55420.chunk.css.map": "/MusicRec/static/css/main.c9b55420.chunk.css.map",
+    "static/media/logo.svg": "/MusicRec/static/media/logo.5d5d9eef.svg",
+    "static/media/music-button.png": "/MusicRec/static/media/music-button.ae6a625e.png",
+    "static/media/question.png": "/MusicRec/static/media/question.90980219.png"
   }
 }
