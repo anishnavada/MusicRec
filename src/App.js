@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './styles.css';
 import HelpModal from "./components/HelpModal"
 import { Switch, BrowserRouter as Router, Route} from "react-router-dom";
+import {Link} from "react-router-dom";
 import $ from "jquery"
 import RecommendationList from "./components/RecommendationList"
 import Home from "./components/Home"
@@ -25,7 +26,7 @@ class App extends React.Component{
 	    	<h1 className="title">M u s i c R e c <img onClick={this.openHelpModal} className="help" src={require('./images/question.png')} /></h1>
 	    	<HelpModal /> 
 	    		<Switch> 
-	    			<Route path="/reclist/:id" component={RecommendationList} />
+	    			<Route path="/reclist/:key" component={RecommendationList} />
 	    			<Route path="/" component={Home} /> 
 	    		</Switch>
 	    	</Router>

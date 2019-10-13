@@ -1,10 +1,46 @@
 .title{
 	text-align: center;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Arial';
 	margin-top:5px;
 	font-size: 75px;
-	dsiplay: inline-block;
+	color: purple;
 }
+
+.home-button{
+	margin-left: 10px;
+}
+
+.home-link{
+	text-align: center;
+	bottom: 0%;
+	position: fixed;
+}
+
+.add-modal-body{
+	text-align: left;
+}
+
+.song-button{
+	background-color: #9932CC;
+	margin-right: 10px;
+}
+
+.music-card{
+	width: 80%;
+	text-align: center;
+	background-color: #D8BFD8;
+	margin-top: 25px;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.list-holder{
+	text-align: center;
+}
+
 
 .help{
 	float: right;
@@ -14,3 +50,68 @@
 	margin-top: 25px;
 	margin-right: 25px;
 }
+
+.add-button{
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: baseline;
+	margin-bottom: 10px;
+}
+
+.share-key{
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.music-jumb{
+		text-align: center;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.jumbotron{
+	background-color:  #E6E6FA; 
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+}
+
+.home-div{
+	text-align: center;
+	 -moz-transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+    transform: translateY(30%);
+	
+}
+
+.music-button{
+	height:100px;
+	width:100px;
+}
+
+.small-title{
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+@media only screen 
+and (max-device-width: 600px)
+ { 
+ 	.home-div{
+ 		 -moz-transform: translateY(0%);
+	    -webkit-transform: translateY(0%);
+	    transform: translateY(0%);
+	 	}
+	 	
+	 .jumbotron{
+	 	width: 100%;
+	 	display: block;
+	 }	
+ 
+ 
+ 
+  }

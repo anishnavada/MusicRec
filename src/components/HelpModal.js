@@ -4,7 +4,7 @@ class HelpModal extends React.Component{
 	
 	render(){
 		return (
-		   <div id="help-modal" className="modal" tabindex="-1" role="dialog">
+		   <div id="help-modal" className="modal" tabIndex="-1" role="dialog">
 				  <div className="modal-dialog" role="document">
 				    <div className="modal-content">
 				      <div className="modal-header">
